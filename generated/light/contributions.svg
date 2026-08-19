@@ -79,7 +79,7 @@
     <mask id="mix-mask">
       <rect x="24" y="182" width="387" height="10" rx="5" fill="white"/>
     </mask>
-    <rect mask="url(#mix-mask)" x="24.00" y="182" width="333.06" height="10" fill="#3fb950"/><rect mask="url(#mix-mask)" x="357.06" y="182" width="49.05" height="10" fill="#58a6ff"/><rect mask="url(#mix-mask)" x="406.11" y="182" width="4.89" height="10" fill="#d29922"/></g>
+    <rect mask="url(#mix-mask)" x="24.00" y="182" width="333.09" height="10" fill="#3fb950"/><rect mask="url(#mix-mask)" x="357.09" y="182" width="49.03" height="10" fill="#58a6ff"/><rect mask="url(#mix-mask)" x="406.11" y="182" width="4.89" height="10" fill="#d29922"/></g>
     <g class="rise" style="animation-delay:520ms">
       <g transform="translate(24.00, 216)">
         <rect x="0" y="-8" width="8" height="8" rx="2" fill="#3fb950"/>

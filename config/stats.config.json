@@ -14,7 +14,7 @@
     "showRank": true
   },
   "topLangs": {
-    "enabled": true,
+    "enabled": false,
     "title": "Languages",
     "count": 10,
     "affiliations": ["OWNER", "ORGANIZATION_MEMBER", "COLLABORATOR"],

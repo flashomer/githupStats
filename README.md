@@ -15,19 +15,19 @@ reader's system preference.
 | File | What it shows |
 | --- | --- |
 | `stats.svg` | Commits, PRs, issues, stars, repositories and followers as individual tiles, with a rank ring in the header |
-| `top-langs.svg` | All-time language split as a donut chart, measured in bytes of code |
-| `recent-langs.svg` | The same chart limited to repositories pushed to in the last 12 months — what you actually work in now |
+| `recent-langs.svg` | Language split as a donut chart, limited to repositories pushed to in the last 12 months |
 | `contributions.svg` | Contributions for the past year, current and longest streak, and the commit/PR/issue mix |
 | `activity.svg` | Contribution heatmap for the last 52 weeks |
+| `top-langs.svg` | All-time language split, ignoring how recently a repository was touched. Off by default — enable `topLangs` in the config to render it |
 
-<img src="generated/light/stats.svg" width="435" />
-<img src="generated/light/top-langs.svg" width="435" />
-<img src="generated/light/recent-langs.svg" width="435" />
-<img src="generated/light/contributions.svg" width="435" />
-<img src="generated/light/activity.svg" width="886" />
+<img src="generated/light/stats.svg" width="405" />
+<img src="generated/light/contributions.svg" width="405" />
+<img src="generated/light/recent-langs.svg" width="405" />
+<img src="generated/light/activity.svg" width="822" />
 
 Standard cards are 435×235 and the activity card is 886 wide — exactly two cards plus the
-gap — so any combination of them lines up in a README column.
+gap. A profile README column is narrower than that, so render them at `width="405"` and
+`width="822"` to keep two cards on a row instead of stacking.
 
 The cards animate on load: tiles stagger in, donuts sweep clockwise from twelve o'clock,
 the mix bar fills from the left and the heatmap sweeps in week by week. It is all
@@ -83,11 +83,11 @@ below — `<picture>` makes GitHub serve the dark version to readers using dark 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/dark/stats.svg" />
-    <img width="435" src="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/stats.svg" />
+    <img width="405" src="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/stats.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/dark/recent-langs.svg" />
-    <img width="435" src="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/recent-langs.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/dark/contributions.svg" />
+    <img width="405" src="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/contributions.svg" />
   </picture>
 </p>
 ```
