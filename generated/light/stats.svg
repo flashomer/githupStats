@@ -1,0 +1,108 @@
+<svg width="435" height="235" viewBox="0 0 435 235" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="flashomer" color="#24292f">
+  <title>flashomer</title>
+  <style>
+    .heading { font: 600 15px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #1a7f5a; }
+    .stat { font: 600 25px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #24292f; }
+    .stat-sm { font: 600 18px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #24292f; }
+    .caption {
+      font: 500 10px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif;
+      fill: #24292f;
+      fill-opacity: 0.55;
+      letter-spacing: 0.08em;
+    }
+    .tile-value { font: 600 20px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #24292f; }
+    .rank { font: 600 13px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #1a7f5a; }
+    .row { font: 600 11px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #24292f; }
+    .row-dim { font: 500 10px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #24292f; fill-opacity: 0.55; }
+    .badge { font: 600 11px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #1a7f5a; letter-spacing: 0.08em; }
+    .icon { fill: #41b883; fill-opacity: 0.85; }
+  
+    @media (prefers-reduced-motion: no-preference) {
+      .rise, .fade, .pop { opacity: 0; }
+      .rise { animation: rise 0.55s ease-out forwards; }
+      .fade { animation: fade 0.5s ease-out forwards; }
+      .pop {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pop 0.6s cubic-bezier(0.34, 1.3, 0.64, 1) forwards;
+      }
+      .grow {
+        transform-box: fill-box;
+        transform-origin: left center;
+        animation: grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+      .ring { animation: ring 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+      .sweep { animation: sweep 1.15s cubic-bezier(0.32, 0.9, 0.4, 1); }
+      @keyframes sweep { from { stroke-dashoffset: var(--dash); } }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(7px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pop {
+        from { opacity: 0; transform: scale(0.86); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      @keyframes grow { from { transform: scaleX(0); } }
+      @keyframes ring { from { stroke-dashoffset: var(--dash); } }
+    }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" width="434" height="234" fill="#ffffff" stroke="#e3e8ee"/>
+  <text class="heading" x="24" y="34">flashomer</text>
+  
+    <text class="caption" x="373" y="30" text-anchor="end">RANK</text>
+    <g transform="translate(397, 26)">
+      <circle r="14" fill="none" stroke="#e3e8ee" stroke-width="4"/>
+      <circle class="ring" style="--dash:87.96"
+        r="14" fill="none" stroke="#41b883" stroke-width="4"
+        stroke-linecap="round"
+        stroke-dasharray="87.96"
+        stroke-dashoffset="44.40"
+        transform="rotate(-90)"/>
+      <text class="rank" x="0" y="5" text-anchor="middle">B</text>
+    </g>
+  <line x1="24" y1="52" x2="411" y2="52" stroke="#e3e8ee"/>
+  <g class="rise">
+    <g transform="translate(24.00, 74)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5ZM8 10a2 2 0 1 0-.001-4.001A2 2 0 0 0 8 10Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">1.9k</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">COMMITS</text>
+    </g></g><g class="rise" style="animation-delay:70ms">
+    <g transform="translate(155.67, 74)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">281</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">PULL REQUESTS</text>
+    </g></g><g class="rise" style="animation-delay:140ms">
+    <g transform="translate(287.33, 74)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">28</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">ISSUES</text>
+    </g></g><g class="rise" style="animation-delay:210ms">
+    <g transform="translate(24.00, 148)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">0</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">STARS</text>
+    </g></g><g class="rise" style="animation-delay:280ms">
+    <g transform="translate(155.67, 148)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 0 1 1-1ZM5 12.25v3.25a.25.25 0 0 0 .4.2l1.45-1.087a.25.25 0 0 1 .3 0L8.6 15.7a.25.25 0 0 0 .4-.2v-3.25a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">39</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">REPOSITORIES</text>
+    </g></g><g class="rise" style="animation-delay:350ms">
+    <g transform="translate(287.33, 148)">
+      <rect x="0" y="0" rx="6" width="123.67" height="66"
+        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
+      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.575-.729v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"/></g>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">9</text>
+      <text class="caption" x="61.83" y="55" text-anchor="middle">FOLLOWERS</text>
+    </g></g>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "githup-stats",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub stats cards rendered to SVG by a GitHub Actions cron job.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.js"
+  }
+}

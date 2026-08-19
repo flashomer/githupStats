@@ -1,0 +1,39 @@
+{
+  "username": "flashomer",
+  "outputDir": "generated",
+  "animations": true,
+  "themes": {
+    "light": "light",
+    "dark": "dark"
+  },
+  "stats": {
+    "enabled": true,
+    "title": null,
+    "includeAllCommits": true,
+    "countPrivate": true,
+    "showRank": true
+  },
+  "topLangs": {
+    "enabled": true,
+    "title": "Languages",
+    "count": 10,
+    "affiliations": ["OWNER", "ORGANIZATION_MEMBER", "COLLABORATOR"],
+    "excludeRepos": ["xAppR5", "in-spirit"],
+    "excludeLangs": ["HTML", "CSS", "SCSS", "Less", "ActionScript", "Assembly", "Dockerfile", "Makefile", "Shell", "Batchfile"]
+  },
+  "recentLangs": {
+    "enabled": true,
+    "title": "Languages in Use",
+    "subtitle": "12 MONTHS",
+    "sinceDays": 365,
+    "count": 10
+  },
+  "contributions": {
+    "enabled": true,
+    "title": "Contributions"
+  },
+  "activity": {
+    "enabled": true,
+    "title": "Contribution Activity"
+  }
+}

@@ -1,0 +1,116 @@
+<svg width="435" height="235" viewBox="0 0 435 235" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages in Use" color="#c9d1d9">
+  <title>Languages in Use</title>
+  <style>
+    .heading { font: 600 15px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #41b883; }
+    .stat { font: 600 25px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #c9d1d9; }
+    .stat-sm { font: 600 18px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #c9d1d9; }
+    .caption {
+      font: 500 10px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif;
+      fill: #c9d1d9;
+      fill-opacity: 0.55;
+      letter-spacing: 0.08em;
+    }
+    .tile-value { font: 600 20px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #c9d1d9; }
+    .rank { font: 600 13px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #41b883; }
+    .row { font: 600 11px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #c9d1d9; }
+    .row-dim { font: 500 10px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #c9d1d9; fill-opacity: 0.55; }
+    .badge { font: 600 11px 'Segoe UI', Ubuntu, -apple-system, Helvetica, sans-serif; fill: #41b883; letter-spacing: 0.08em; }
+    .icon { fill: #41b883; fill-opacity: 0.85; }
+  
+    @media (prefers-reduced-motion: no-preference) {
+      .rise, .fade, .pop { opacity: 0; }
+      .rise { animation: rise 0.55s ease-out forwards; }
+      .fade { animation: fade 0.5s ease-out forwards; }
+      .pop {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pop 0.6s cubic-bezier(0.34, 1.3, 0.64, 1) forwards;
+      }
+      .grow {
+        transform-box: fill-box;
+        transform-origin: left center;
+        animation: grow 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      }
+      .ring { animation: ring 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+      .sweep { animation: sweep 1.15s cubic-bezier(0.32, 0.9, 0.4, 1); }
+      @keyframes sweep { from { stroke-dashoffset: var(--dash); } }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(7px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pop {
+        from { opacity: 0; transform: scale(0.86); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      @keyframes grow { from { transform: scaleX(0); } }
+      @keyframes ring { from { stroke-dashoffset: var(--dash); } }
+    }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" width="434" height="234" fill="#0d1117" stroke="#262c34"/>
+  <text class="heading" x="24" y="34">Languages in Use</text>
+  <g transform="translate(326.6, 24) scale(0.6875)"><path class="icon" d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06Zm6.56 0a.75.75 0 1 0-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 1 0 1.06 1.06l4.25-4.25a.75.75 0 0 0 0-1.06Z"/></g><text class="badge" x="411" y="34" text-anchor="end">12 MONTHS</text>
+  <line x1="24" y1="52" x2="411" y2="52" stroke="#262c34"/>
+  
+    
+    <mask id="lang-sweep">
+      <circle class="sweep" style="--dash:282.74"
+        cx="98" cy="142" r="45" fill="none" stroke="white"
+        stroke-width="18"
+        stroke-dasharray="282.74" stroke-dashoffset="0"
+        transform="rotate(-90 98 142)"/>
+    </mask>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 47.31 160.60 L 64.20 154.40 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 47.31 160.60 A 54 54 0 0 1 52.55 112.84 L 67.70 122.56 A 36 36 0 0 0 64.20 154.40 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 52.55 112.84 A 54 54 0 0 1 66.22 98.34 L 76.82 112.89 A 36 36 0 0 0 67.70 122.56 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 66.22 98.34 A 54 54 0 0 1 82.94 90.14 L 87.96 107.43 A 36 36 0 0 0 76.82 112.89 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 82.94 90.14 A 54 54 0 0 1 93.48 88.19 L 94.99 106.13 A 36 36 0 0 0 87.96 107.43 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 93.48 88.19 A 54 54 0 0 1 95.51 88.06 L 96.34 106.04 A 36 36 0 0 0 94.99 106.13 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 95.51 88.06 A 54 54 0 0 1 97.03 88.01 L 97.36 106.01 A 36 36 0 0 0 96.34 106.04 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.03 88.01 A 54 54 0 0 1 97.38 88.00 L 97.59 106.00 A 36 36 0 0 0 97.36 106.01 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.38 88.00 A 54 54 0 0 1 97.71 88.00 L 97.81 106.00 A 36 36 0 0 0 97.59 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.71 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.81 106.00 Z" fill="#012456" stroke="#0d1117" stroke-width="1.5"/></g>
+    <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">69%</text></g>
+    <g class="rise">
+      <g transform="translate(184, 82.0)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f1e05a"/>
+        <text class="row" x="16" y="0">JavaScript</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">69.4%</text>
+      </g></g><g class="rise" style="animation-delay:798ms">
+      <g transform="translate(184, 96.7)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00B4AB"/>
+        <text class="row" x="16" y="0">Dart</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">14.7%</text>
+      </g></g><g class="rise" style="animation-delay:967ms">
+      <g transform="translate(184, 111.3)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00ADD8"/>
+        <text class="row" x="16" y="0">Go</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">5.9%</text>
+      </g></g><g class="rise" style="animation-delay:1035ms">
+      <g transform="translate(184, 126.0)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
+        <text class="row" x="16" y="0">Python</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">5.5%</text>
+      </g></g><g class="rise" style="animation-delay:1098ms">
+      <g transform="translate(184, 140.7)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3178c6"/>
+        <text class="row" x="16" y="0">TypeScript</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">3.2%</text>
+      </g></g><g class="rise" style="animation-delay:1135ms">
+      <g transform="translate(184, 155.3)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f34b7d"/>
+        <text class="row" x="16" y="0">C++</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.6%</text>
+      </g></g><g class="rise" style="animation-delay:1142ms">
+      <g transform="translate(184, 170.0)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#DA3434"/>
+        <text class="row" x="16" y="0">CMake</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.4%</text>
+      </g></g><g class="rise" style="animation-delay:1147ms">
+      <g transform="translate(184, 184.7)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#4F5D95"/>
+        <text class="row" x="16" y="0">PHP</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
+      </g></g><g class="rise" style="animation-delay:1148ms">
+      <g transform="translate(184, 199.3)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#F05138"/>
+        <text class="row" x="16" y="0">Swift</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
+      </g></g><g class="rise" style="animation-delay:1149ms">
+      <g transform="translate(184, 214.0)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#012456"/>
+        <text class="row" x="16" y="0">PowerShell</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
+      </g></g>
+</svg>
