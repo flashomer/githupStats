@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 
 import { fetchStats, fetchTopLanguages } from "../src/api.js";
 import { renderActivityCard } from "../src/cards/activity-card.js";
+import { renderBreakdownCard } from "../src/cards/breakdown-card.js";
 import { renderContributionsCard } from "../src/cards/contributions-card.js";
 import { renderLangsCard } from "../src/cards/langs-card.js";
 import { renderStatsCard } from "../src/cards/stats-card.js";
@@ -46,6 +47,7 @@ async function main() {
   const needsStats =
     enabled(config.stats) ||
     enabled(config.contributions) ||
+    enabled(config.breakdown) ||
     enabled(config.activity);
 
   const stats = needsStats
@@ -120,6 +122,15 @@ async function main() {
         join(dir, "contributions.svg"),
         renderContributionsCard(stats, theme, { title: config.contributions?.title }),
       );
+    }
+
+    if (enabled(config.breakdown)) {
+      const svg = renderBreakdownCard(stats, theme, { title: config.breakdown?.title });
+      if (svg) {
+        await writeOutput(join(dir, "breakdown.svg"), svg);
+      } else {
+        console.warn("No contributions to break down, skipping breakdown card.");
+      }
     }
 
     if (enabled(config.activity)) {

@@ -16,13 +16,15 @@ reader's system preference.
 | --- | --- |
 | `stats.svg` | Commits, PRs, issues, stars, repositories and followers as individual tiles, with a rank ring in the header |
 | `recent-langs.svg` | Language split as a donut chart, limited to repositories pushed to in the last 12 months |
-| `contributions.svg` | Contributions for the past year, current and longest streak, and the commit/PR/issue mix |
+| `contributions.svg` | Current streak as a progress ring, plus total contributions and longest streak for the past year |
+| `breakdown.svg` | Commits vs. pull requests vs. issues as a donut chart, over all time |
 | `activity.svg` | Contribution heatmap for the last 52 weeks |
 | `top-langs.svg` | All-time language split, ignoring how recently a repository was touched. Off by default — enable `topLangs` in the config to render it |
 
 <img src="generated/light/stats.svg" width="405" />
-<img src="generated/light/contributions.svg" width="405" />
 <img src="generated/light/recent-langs.svg" width="405" />
+<img src="generated/light/contributions.svg" width="405" />
+<img src="generated/light/breakdown.svg" width="405" />
 <img src="generated/light/activity.svg" width="822" />
 
 Standard cards are 435×235 and the activity card is 886 wide — exactly two cards plus the

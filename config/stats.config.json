@@ -32,6 +32,10 @@
     "enabled": true,
     "title": "Contributions"
   },
+  "breakdown": {
+    "enabled": true,
+    "title": "Contribution Mix"
+  },
   "activity": {
     "enabled": true,
     "title": "Contribution Activity"

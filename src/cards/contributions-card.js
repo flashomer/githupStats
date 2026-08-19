@@ -3,6 +3,7 @@ import {
   CARD_WIDTH,
   ICONS,
   PADDING,
+  TILE_GAP,
   TILE_HEIGHT,
   animate,
   card,
@@ -10,21 +11,18 @@ import {
   formatCount,
   labelWithIcon,
   tile,
-  tileColumns,
 } from "../svg.js";
 
-const FIRST_ROW = 74;
-const BAR_Y = FIRST_ROW + TILE_HEIGHT + 42;
-const BAR_HEIGHT = 10;
-const BAR_WIDTH = CARD_WIDTH - PADDING * 2;
-const LEGEND_Y = BAR_Y + 34;
+const RING_CX = 100;
+const RING_CY = 130;
+const RING_RADIUS = 44;
+const RING_WIDTH = 9;
+const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
+const RING_TARGET = 30;
 
-// Fixed hues so the segments stay distinguishable on light and dark cards.
-const SEGMENTS = [
-  { key: "commits", label: "Commits", color: "#3fb950" },
-  { key: "prs", label: "Pull requests", color: "#58a6ff" },
-  { key: "issues", label: "Issues", color: "#d29922" },
-];
+const TILE_X = 184;
+const TILE_WIDTH = CARD_WIDTH - PADDING - TILE_X;
+const FIRST_TILE_Y = 74;
 
 function formatDate(iso) {
   return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-US", {
@@ -32,6 +30,10 @@ function formatDate(iso) {
     day: "numeric",
     timeZone: "UTC",
   });
+}
+
+function range(pair) {
+  return pair ? `${formatDate(pair[0])} – ${formatDate(pair[1])}` : "—";
 }
 
 // The last day is often still in progress, so a zero there doesn't break the run.
@@ -71,50 +73,31 @@ export function calculateStreaks(days) {
   return { current, currentRange, longest, longestRange };
 }
 
-function renderBar(slices, total) {
-  let offset = 0;
-  const segments = slices
-    .map((slice) => {
-      const width = (slice.value / total) * BAR_WIDTH;
-      const rect = `<rect mask="url(#mix-mask)" x="${(PADDING + offset).toFixed(
-        2,
-      )}" y="${BAR_Y}" width="${width.toFixed(2)}" height="${BAR_HEIGHT}" fill="${slice.color}"/>`;
-      offset += width;
-      return rect;
-    })
-    .join("");
+// Full ring at 30 days, so short streaks still read as progress.
+function renderRing(streak, theme) {
+  const progress = Math.min(streak.current / RING_TARGET, 1);
 
   return `
-    <mask id="mix-mask">
-      <rect x="${PADDING}" y="${BAR_Y}" width="${BAR_WIDTH}" height="${BAR_HEIGHT}" rx="5" fill="white"/>
-    </mask>
-    ${segments}`;
-}
-
-function renderLegend(slices, total) {
-  const step = BAR_WIDTH / slices.length;
-
-  return slices
-    .map((slice, index) => {
-      const percent = ((slice.value / total) * 100).toFixed(1);
-      return animate(
-        "rise",
-        520 + index * 80,
-        `
-      <g transform="translate(${(PADDING + index * step).toFixed(2)}, ${LEGEND_Y})">
-        <rect x="0" y="-8" width="8" height="8" rx="2" fill="${slice.color}"/>
-        <text class="row" x="16" y="0">${escapeXml(slice.label)}</text>
-        <text class="row-dim" x="16" y="14">${formatCount(slice.value)} · ${percent}%</text>
-      </g>`,
-      );
-    })
-    .join("");
+    <g transform="translate(${RING_CX}, ${RING_CY})">
+      <circle r="${RING_RADIUS}" fill="none" stroke="#${theme.border}" stroke-width="${RING_WIDTH}"/>
+      <circle class="ring" style="--dash:${RING_CIRCUMFERENCE.toFixed(2)}"
+        r="${RING_RADIUS}" fill="none" stroke="#${theme.accent}" stroke-width="${RING_WIDTH}"
+        stroke-linecap="round"
+        stroke-dasharray="${RING_CIRCUMFERENCE.toFixed(2)}"
+        stroke-dashoffset="${(RING_CIRCUMFERENCE * (1 - progress)).toFixed(2)}"
+        transform="rotate(-90)"/>
+      <text class="stat" x="0" y="2" text-anchor="middle">${streak.current}</text>
+      <text class="row-dim" x="0" y="18" text-anchor="middle">${streak.current === 1 ? "day" : "days"}</text>
+    </g>
+    ${labelWithIcon(ICONS.flame, "CURRENT STREAK", RING_CX, RING_CY + 64, "middle")}
+    <text class="row-dim" x="${RING_CX}" y="${RING_CY + 81}" text-anchor="middle">${escapeXml(
+      streak.currentRange ? range(streak.currentRange) : "not active today",
+    )}</text>`;
 }
 
 export function renderContributionsCard(stats, theme, options = {}) {
   const { title = "Contributions" } = options;
   const streak = calculateStreaks(stats.days);
-  const { width, x } = tileColumns(CARD_WIDTH, 3);
 
   const tiles = [
     {
@@ -123,38 +106,36 @@ export function renderContributionsCard(stats, theme, options = {}) {
       value: formatCount(stats.totalContributions),
     },
     {
-      icon: ICONS.flame,
-      label: "CURRENT STREAK",
-      value: `${streak.current}d`,
-    },
-    {
       icon: ICONS.star,
       label: "LONGEST STREAK",
       value: `${streak.longest}d`,
     },
   ];
 
-  const slices = SEGMENTS.map((segment) => ({
-    ...segment,
-    value: { commits: stats.commits, prs: stats.prs, issues: stats.issues }[segment.key] ?? 0,
-  })).filter((slice) => slice.value > 0);
-
-  const total = slices.reduce((sum, slice) => sum + slice.value, 0);
-
   const body = `
+    ${renderRing(streak, theme)}
     ${tiles
       .map((item, index) =>
-        animate("rise", index * 90, tile({ ...item, theme, width, x: x(index), y: FIRST_ROW })),
+        animate(
+          "rise",
+          200 + index * 110,
+          tile({
+            ...item,
+            theme,
+            width: TILE_WIDTH,
+            x: TILE_X,
+            y: FIRST_TILE_Y + index * (TILE_HEIGHT + TILE_GAP),
+          }),
+        ),
       )
       .join("")}
-    ${animate("fade", 260, labelWithIcon(ICONS.repo, "CONTRIBUTION MIX · ALL TIME", PADDING, BAR_Y - 14))}
-    ${total > 0 ? animate("grow", 320, renderBar(slices, total)) : ""}
-    ${total > 0 ? renderLegend(slices, total) : ""}
-    <text class="row-dim" x="${CARD_WIDTH - PADDING}" y="${BAR_Y - 14}" text-anchor="end">${escapeXml(
-      streak.currentRange
-        ? `${formatDate(streak.currentRange[0])} – ${formatDate(streak.currentRange[1])}`
-        : "streak not active",
-    )}</text>`;
+    ${animate(
+      "fade",
+      450,
+      `<text class="row-dim" x="${TILE_X + TILE_WIDTH / 2}" y="${
+        FIRST_TILE_Y + 2 * TILE_HEIGHT + TILE_GAP + 16
+      }" text-anchor="middle">${escapeXml(range(streak.longestRange))}</text>`,
+    )}`;
 
   return card(CARD_WIDTH, CARD_HEIGHT, theme, title, body);
 }

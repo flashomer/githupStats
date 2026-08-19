@@ -52,49 +52,34 @@
   
   <line x1="24" y1="52" x2="411" y2="52" stroke="#e3e8ee"/>
   
-    <g class="rise">
-    <g transform="translate(24.00, 74)">
-      <rect x="0" y="0" rx="6" width="123.67" height="66"
+    
+    <g transform="translate(100, 130)">
+      <circle r="44" fill="none" stroke="#e3e8ee" stroke-width="9"/>
+      <circle class="ring" style="--dash:276.46"
+        r="44" fill="none" stroke="#41b883" stroke-width="9"
+        stroke-linecap="round"
+        stroke-dasharray="276.46"
+        stroke-dashoffset="248.81"
+        transform="rotate(-90)"/>
+      <text class="stat" x="0" y="2" text-anchor="middle">3</text>
+      <text class="row-dim" x="0" y="18" text-anchor="middle">days</text>
+    </g>
+    <g transform="translate(47.199999999999996, 185) scale(0.6875)"><path class="icon" d="M9.533.753V.752c.001.078.024 1.213-.469 2.484-.277.717-.694 1.464-1.322 2.108-.62.635-1.44 1.153-2.521 1.363-.223.043-.4.21-.4.437v3.505c0 .21.146.39.35.44 1.34.325 2.463 1.078 3.24 2.03.782.955 1.19 2.086 1.19 3.191a.75.75 0 0 0 1.5 0c0-1.46-.542-2.92-1.527-4.128-.882-1.08-2.09-1.916-3.503-2.35v-2.6c1.15-.318 2.06-.923 2.75-1.63.75-.77 1.24-1.65 1.56-2.48.4-1.03.56-2.01.62-2.63a.75.75 0 0 0-1.468-.2Z"/></g><text class="caption" x="63.2" y="194">CURRENT STREAK</text>
+    <text class="row-dim" x="100" y="211" text-anchor="middle">Aug 17 – Aug 19</text>
+    <g class="rise" style="animation-delay:200ms">
+    <g transform="translate(184.00, 74)">
+      <rect x="0" y="0" rx="6" width="227.00" height="66"
         fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
-      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/></g>
-      <text class="tile-value" x="61.83" y="38" text-anchor="middle">1.6k</text>
-      <text class="caption" x="61.83" y="55" text-anchor="middle">PAST YEAR</text>
-    </g></g><g class="rise" style="animation-delay:90ms">
-    <g transform="translate(155.67, 74)">
-      <rect x="0" y="0" rx="6" width="123.67" height="66"
+      <g transform="translate(201, 10) scale(0.8750)"><path class="icon" d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0ZM2.5 7.5v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5Zm10.75-4H2.75a.25.25 0 0 0-.25.25V6h11V3.75a.25.25 0 0 0-.25-.25Z"/></g>
+      <text class="tile-value" x="113.50" y="38" text-anchor="middle">1.6k</text>
+      <text class="caption" x="113.50" y="55" text-anchor="middle">PAST YEAR</text>
+    </g></g><g class="rise" style="animation-delay:310ms">
+    <g transform="translate(184.00, 148)">
+      <rect x="0" y="0" rx="6" width="227.00" height="66"
         fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
-      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M9.533.753V.752c.001.078.024 1.213-.469 2.484-.277.717-.694 1.464-1.322 2.108-.62.635-1.44 1.153-2.521 1.363-.223.043-.4.21-.4.437v3.505c0 .21.146.39.35.44 1.34.325 2.463 1.078 3.24 2.03.782.955 1.19 2.086 1.19 3.191a.75.75 0 0 0 1.5 0c0-1.46-.542-2.92-1.527-4.128-.882-1.08-2.09-1.916-3.503-2.35v-2.6c1.15-.318 2.06-.923 2.75-1.63.75-.77 1.24-1.65 1.56-2.48.4-1.03.56-2.01.62-2.63a.75.75 0 0 0-1.468-.2Z"/></g>
-      <text class="tile-value" x="61.83" y="38" text-anchor="middle">3d</text>
-      <text class="caption" x="61.83" y="55" text-anchor="middle">CURRENT STREAK</text>
-    </g></g><g class="rise" style="animation-delay:180ms">
-    <g transform="translate(287.33, 74)">
-      <rect x="0" y="0" rx="6" width="123.67" height="66"
-        fill="#fcfdfe" fill-opacity="1" stroke="#eaeef3"/>
-      <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></g>
-      <text class="tile-value" x="61.83" y="38" text-anchor="middle">21d</text>
-      <text class="caption" x="61.83" y="55" text-anchor="middle">LONGEST STREAK</text>
+      <g transform="translate(201, 10) scale(0.8750)"><path class="icon" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></g>
+      <text class="tile-value" x="113.50" y="38" text-anchor="middle">21d</text>
+      <text class="caption" x="113.50" y="55" text-anchor="middle">LONGEST STREAK</text>
     </g></g>
-    <g class="fade" style="animation-delay:260ms"><g transform="translate(24, 159) scale(0.6875)"><path class="icon" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 0 1 1-1ZM5 12.25v3.25a.25.25 0 0 0 .4.2l1.45-1.087a.25.25 0 0 1 .3 0L8.6 15.7a.25.25 0 0 0 .4-.2v-3.25a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25Z"/></g><text class="caption" x="40.0" y="168">CONTRIBUTION MIX · ALL TIME</text></g>
-    <g class="grow" style="animation-delay:320ms">
-    <mask id="mix-mask">
-      <rect x="24" y="182" width="387" height="10" rx="5" fill="white"/>
-    </mask>
-    <rect mask="url(#mix-mask)" x="24.00" y="182" width="333.09" height="10" fill="#3fb950"/><rect mask="url(#mix-mask)" x="357.09" y="182" width="49.03" height="10" fill="#58a6ff"/><rect mask="url(#mix-mask)" x="406.11" y="182" width="4.89" height="10" fill="#d29922"/></g>
-    <g class="rise" style="animation-delay:520ms">
-      <g transform="translate(24.00, 216)">
-        <rect x="0" y="-8" width="8" height="8" rx="2" fill="#3fb950"/>
-        <text class="row" x="16" y="0">Commits</text>
-        <text class="row-dim" x="16" y="14">1.9k · 86.1%</text>
-      </g></g><g class="rise" style="animation-delay:600ms">
-      <g transform="translate(153.00, 216)">
-        <rect x="0" y="-8" width="8" height="8" rx="2" fill="#58a6ff"/>
-        <text class="row" x="16" y="0">Pull requests</text>
-        <text class="row-dim" x="16" y="14">281 · 12.7%</text>
-      </g></g><g class="rise" style="animation-delay:680ms">
-      <g transform="translate(282.00, 216)">
-        <rect x="0" y="-8" width="8" height="8" rx="2" fill="#d29922"/>
-        <text class="row" x="16" y="0">Issues</text>
-        <text class="row-dim" x="16" y="14">28 · 1.3%</text>
-      </g></g>
-    <text class="row-dim" x="411" y="168" text-anchor="end">Aug 17 – Aug 19</text>
+    <g class="fade" style="animation-delay:450ms"><text class="row-dim" x="297.5" y="230" text-anchor="middle">Jul 26 – Aug 15</text></g>
 </svg>
