@@ -19,6 +19,7 @@ reader's system preference.
 | `contributions.svg` | Current streak as a progress ring, plus total contributions and longest streak for the past year |
 | `breakdown.svg` | Commits vs. pull requests vs. issues as a donut chart, over all time |
 | `activity.svg` | Contribution heatmap for the last 52 weeks |
+| `activity-compact.svg` | The same heatmap trimmed to the last 24 weeks so it stays readable at phone width |
 | `top-langs.svg` | All-time language split, ignoring how recently a repository was touched. Off by default — enable `topLangs` in the config to render it |
 
 <img src="generated/light/stats.svg" width="405" />
@@ -30,6 +31,12 @@ reader's system preference.
 Standard cards are 435×235 and the activity card is 886 wide — exactly two cards plus the
 gap. A profile README column is narrower than that, so render them at `width="405"` and
 `width="822"` to keep two cards on a row instead of stacking.
+
+On a phone the column is narrower still. GitHub caps images at the container width, so the
+435-wide cards simply scale down and stack, which reads fine. The wide heatmap does not:
+scaled to a phone its cells collapse into an unreadable smear. That is what
+`activity-compact.svg` is for — it drops the oldest weeks instead of shrinking the cells,
+and a `media` query on the `<picture>` element swaps it in below 600px.
 
 The cards animate on load: tiles stagger in, donuts sweep clockwise from twelve o'clock,
 the mix bar fills from the left and the heatmap sweeps in week by week. It is all
@@ -94,7 +101,19 @@ below — `<picture>` makes GitHub serve the dark version to readers using dark 
 </p>
 ```
 
-Swap in any of the other card filenames the same way.
+Swap in any of the other card filenames the same way. The heatmap needs one extra pair of
+sources so phones get the compact variant:
+
+```html
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/dark/activity-compact.svg" />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/activity-compact.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/dark/activity.svg" />
+    <img width="822" src="https://raw.githubusercontent.com/YOUR-USERNAME/githupStats/main/generated/light/activity.svg" />
+  </picture>
+</p>
+```
 
 To run it locally:
 

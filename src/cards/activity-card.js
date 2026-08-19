@@ -24,10 +24,16 @@ function shade(count, peak) {
   return 0.28;
 }
 
+// How many weeks fit before the grid would run past the card edge.
+export function weeksThatFit(width) {
+  const available = width - PADDING * 2 - DAY_LABEL_WIDTH;
+  return Math.floor((available + CELL_GAP) / (CELL + CELL_GAP));
+}
+
+// Grouped per week so the calendar can sweep in column by column.
 function renderGrid(weeks, originX, theme) {
   const peak = Math.max(...weeks.flat(), 1);
 
-  // Grouped per week so the calendar can sweep in column by column.
   return weeks
     .map((week, weekIndex) =>
       animate(
@@ -47,18 +53,18 @@ function renderGrid(weeks, originX, theme) {
     .join("");
 }
 
-function renderDayLabels(x) {
+function renderDayLabels() {
   return ["Mon", "Wed", "Fri"]
     .map((label, index) => {
       const y = GRID_TOP + (index * 2 + 1) * (CELL + CELL_GAP) + 9;
-      return `<text class="row-dim" x="${x}" y="${y}">${label}</text>`;
+      return `<text class="row-dim" x="${PADDING}" y="${y}">${label}</text>`;
     })
     .join("");
 }
 
-function renderLegend(theme) {
+function renderLegend(width, theme) {
   const steps = [0.08, 0.28, 0.5, 0.75, 1];
-  const x0 = WIDE_WIDTH - PADDING - steps.length * (CELL + CELL_GAP) - 34;
+  const x0 = width - PADDING - steps.length * (CELL + CELL_GAP) - 34;
   const y = CARD_HEIGHT - 34;
 
   const cells = steps
@@ -75,20 +81,29 @@ function renderLegend(theme) {
 }
 
 export function renderActivityCard(stats, theme, options = {}) {
-  const { title = "Contribution Activity" } = options;
-  const weeks = stats.weeks;
+  const { title = "Contribution Activity", width = WIDE_WIDTH } = options;
 
-  const originX = PADDING + DAY_LABEL_WIDTH;
-  const labelX = PADDING;
+  // Narrow variants drop the oldest weeks rather than shrinking the cells,
+  // which is what keeps the calendar readable on a phone.
+  const limit = options.weeks ?? weeksThatFit(width);
+  const weeks = stats.weeks.slice(-limit);
+
+  const total =
+    limit >= stats.weeks.length
+      ? stats.totalContributions
+      : weeks.flat().reduce((sum, count) => sum + count, 0);
+
+  const caption =
+    limit >= stats.weeks.length
+      ? `${formatCount(total)} CONTRIBUTIONS IN THE LAST YEAR`
+      : `${formatCount(total)} CONTRIBUTIONS · LAST ${weeks.length} WEEKS`;
 
   const body = `
-    ${renderDayLabels(labelX)}
-    ${renderGrid(weeks, originX, theme)}
+    ${renderDayLabels()}
+    ${renderGrid(weeks, PADDING + DAY_LABEL_WIDTH, theme)}
     ${icon(ICONS.flame, PADDING, CARD_HEIGHT - 33, 11)}
-    <text class="caption" x="${PADDING + 16}" y="${CARD_HEIGHT - 24}">${formatCount(
-      stats.totalContributions,
-    )} CONTRIBUTIONS IN THE LAST YEAR</text>
-    ${renderLegend(theme)}`;
+    <text class="caption" x="${PADDING + 16}" y="${CARD_HEIGHT - 24}">${caption}</text>
+    ${renderLegend(width, theme)}`;
 
-  return card(WIDE_WIDTH, CARD_HEIGHT, theme, title, body);
+  return card(width, CARD_HEIGHT, theme, title, body);
 }

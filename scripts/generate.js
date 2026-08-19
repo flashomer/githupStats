@@ -11,7 +11,7 @@ import { renderBreakdownCard } from "../src/cards/breakdown-card.js";
 import { renderContributionsCard } from "../src/cards/contributions-card.js";
 import { renderLangsCard } from "../src/cards/langs-card.js";
 import { renderStatsCard } from "../src/cards/stats-card.js";
-import { setAnimated } from "../src/svg.js";
+import { CARD_WIDTH, setAnimated } from "../src/svg.js";
 import { resolveTheme } from "../src/themes.js";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -137,6 +137,15 @@ async function main() {
       await writeOutput(
         join(dir, "activity.svg"),
         renderActivityCard(stats, theme, { title: config.activity?.title }),
+      );
+
+      // Narrow twin for phones, swapped in by a media query in the README.
+      await writeOutput(
+        join(dir, "activity-compact.svg"),
+        renderActivityCard(stats, theme, {
+          title: config.activity?.title,
+          width: CARD_WIDTH,
+        }),
       );
     }
   }
