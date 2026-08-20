@@ -60,7 +60,7 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 56.65 107.27 L 70.43 118.85 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 56.65 107.27 A 54 54 0 0 1 93.74 88.17 L 95.16 106.11 A 36 36 0 0 0 70.43 118.85 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.74 88.17 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.16 106.11 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
+    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 56.68 107.24 L 70.45 118.83 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 56.68 107.24 A 54 54 0 0 1 93.74 88.17 L 95.16 106.11 A 36 36 0 0 0 70.45 118.83 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.74 88.17 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.16 106.11 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="143" text-anchor="middle">2.2k</text>
        <text class="row-dim" x="98" y="158" text-anchor="middle">total</text></g>
     <g class="rise">
@@ -69,7 +69,7 @@
         <text class="row" x="16" y="0">Commits</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">86.1%</text>
         <text class="row-dim" x="16" y="14">1.9k</text>
-      </g></g><g class="rise" style="animation-delay:990ms">
+      </g></g><g class="rise" style="animation-delay:991ms">
       <g transform="translate(184, 140)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#58a6ff"/>
         <text class="row" x="16" y="0">Pull requests</text>
