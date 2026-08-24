@@ -57,7 +57,7 @@
         r="14" fill="none" stroke="#41b883" stroke-width="4"
         stroke-linecap="round"
         stroke-dasharray="87.96"
-        stroke-dashoffset="44.39"
+        stroke-dashoffset="44.40"
         transform="rotate(-90)"/>
       <text class="rank" x="0" y="5" text-anchor="middle">B</text>
     </g>
@@ -67,7 +67,7 @@
       <rect x="0" y="0" rx="6" width="123.67" height="66"
         fill="#12181f" fill-opacity="1" stroke="#222932"/>
       <g transform="translate(97.66666666666667, 10) scale(0.8750)"><path class="icon" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5ZM8 10a2 2 0 1 0-.001-4.001A2 2 0 0 0 8 10Z"/></g>
-      <text class="tile-value" x="61.83" y="38" text-anchor="middle">2k</text>
+      <text class="tile-value" x="61.83" y="38" text-anchor="middle">1.9k</text>
       <text class="caption" x="61.83" y="55" text-anchor="middle">COMMITS</text>
     </g></g><g class="rise" style="animation-delay:70ms">
     <g transform="translate(155.67, 74)">
