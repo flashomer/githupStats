@@ -59,13 +59,13 @@
         r="44" fill="none" stroke="#41b883" stroke-width="9"
         stroke-linecap="round"
         stroke-dasharray="276.46"
-        stroke-dashoffset="276.46"
+        stroke-dashoffset="267.24"
         transform="rotate(-90)"/>
-      <text class="stat" x="0" y="2" text-anchor="middle">0</text>
-      <text class="row-dim" x="0" y="18" text-anchor="middle">days</text>
+      <text class="stat" x="0" y="2" text-anchor="middle">1</text>
+      <text class="row-dim" x="0" y="18" text-anchor="middle">day</text>
     </g>
     <g transform="translate(47.199999999999996, 185) scale(0.6875)"><path class="icon" d="M9.533.753V.752c.001.078.024 1.213-.469 2.484-.277.717-.694 1.464-1.322 2.108-.62.635-1.44 1.153-2.521 1.363-.223.043-.4.21-.4.437v3.505c0 .21.146.39.35.44 1.34.325 2.463 1.078 3.24 2.03.782.955 1.19 2.086 1.19 3.191a.75.75 0 0 0 1.5 0c0-1.46-.542-2.92-1.527-4.128-.882-1.08-2.09-1.916-3.503-2.35v-2.6c1.15-.318 2.06-.923 2.75-1.63.75-.77 1.24-1.65 1.56-2.48.4-1.03.56-2.01.62-2.63a.75.75 0 0 0-1.468-.2Z"/></g><text class="caption" x="63.2" y="194">CURRENT STREAK</text>
-    <text class="row-dim" x="100" y="211" text-anchor="middle">not active today</text>
+    <text class="row-dim" x="100" y="211" text-anchor="middle">Aug 31 – Aug 31</text>
     <g class="rise" style="animation-delay:200ms">
     <g transform="translate(184.00, 74)">
       <rect x="0" y="0" rx="6" width="227.00" height="66"
