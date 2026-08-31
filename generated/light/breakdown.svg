@@ -60,7 +60,7 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 57.90 105.83 L 71.27 117.89 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 57.90 105.83 A 54 54 0 0 1 93.91 88.16 L 95.27 106.10 A 36 36 0 0 0 71.27 117.89 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.91 88.16 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.27 106.10 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
+    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 57.94 105.79 L 71.29 117.86 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 57.94 105.79 A 54 54 0 0 1 93.91 88.15 L 95.28 106.10 A 36 36 0 0 0 71.29 117.86 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.91 88.15 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.28 106.10 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="143" text-anchor="middle">2.3k</text>
        <text class="row-dim" x="98" y="158" text-anchor="middle">total</text></g>
     <g class="rise">
