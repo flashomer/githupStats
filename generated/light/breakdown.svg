@@ -60,20 +60,20 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 58.05 105.67 L 71.36 117.78 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 58.05 105.67 A 54 54 0 0 1 93.93 88.15 L 95.29 106.10 A 36 36 0 0 0 71.36 117.78 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.93 88.15 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.29 106.10 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
+    <g mask="url(#mix-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 58.08 105.63 L 71.39 117.75 A 36 36 0 1 0 98.00 106.00 Z" fill="#3fb950" stroke="#ffffff" stroke-width="1.5"/><path d="M 58.08 105.63 A 54 54 0 0 1 93.93 88.15 L 95.29 106.10 A 36 36 0 0 0 71.39 117.75 Z" fill="#58a6ff" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.93 88.15 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 95.29 106.10 Z" fill="#d29922" stroke="#ffffff" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="143" text-anchor="middle">2.3k</text>
        <text class="row-dim" x="98" y="158" text-anchor="middle">total</text></g>
     <g class="rise">
       <g transform="translate(184, 106)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3fb950"/>
         <text class="row" x="16" y="0">Commits</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">86.7%</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">86.8%</text>
         <text class="row-dim" x="16" y="14">2k</text>
       </g></g><g class="rise" style="animation-delay:998ms">
       <g transform="translate(184, 140)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#58a6ff"/>
         <text class="row" x="16" y="0">Pull requests</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">12.1%</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">12.0%</text>
         <text class="row-dim" x="16" y="14">281</text>
       </g></g><g class="rise" style="animation-delay:1136ms">
       <g transform="translate(184, 174)">
