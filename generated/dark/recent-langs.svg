@@ -60,34 +60,34 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 46.75 159.01 L 63.83 153.34 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 46.75 159.01 A 54 54 0 0 1 53.03 112.10 L 68.02 122.07 A 36 36 0 0 0 63.83 153.34 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 53.03 112.10 A 54 54 0 0 1 66.67 98.02 L 77.11 112.68 A 36 36 0 0 0 68.02 122.07 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 66.67 98.02 A 54 54 0 0 1 83.18 90.07 L 88.12 107.38 A 36 36 0 0 0 77.11 112.68 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 83.18 90.07 A 54 54 0 0 1 93.55 88.18 L 95.03 106.12 A 36 36 0 0 0 88.12 107.38 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 93.55 88.18 A 54 54 0 0 1 95.55 88.06 L 96.37 106.04 A 36 36 0 0 0 95.03 106.12 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 95.55 88.06 A 54 54 0 0 1 97.05 88.01 L 97.37 106.01 A 36 36 0 0 0 96.37 106.04 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.05 88.01 A 54 54 0 0 1 97.39 88.00 L 97.59 106.00 A 36 36 0 0 0 97.37 106.01 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.39 88.00 A 54 54 0 0 1 97.72 88.00 L 97.81 106.00 A 36 36 0 0 0 97.59 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.72 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.81 106.00 Z" fill="#012456" stroke="#0d1117" stroke-width="1.5"/></g>
-    <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">70%</text></g>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 51.62 169.65 L 67.08 160.43 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 51.62 169.65 A 54 54 0 0 1 46.83 124.76 L 63.88 130.51 A 36 36 0 0 0 67.08 160.43 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 46.83 124.76 A 54 54 0 0 1 67.00 97.78 L 77.34 112.52 A 36 36 0 0 0 63.88 130.51 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 67.00 97.78 A 54 54 0 0 1 83.89 89.88 L 88.60 107.25 A 36 36 0 0 0 77.34 112.52 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 83.89 89.88 A 54 54 0 0 1 93.77 88.17 L 95.18 106.11 A 36 36 0 0 0 88.60 107.25 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 93.77 88.17 A 54 54 0 0 1 95.67 88.05 L 96.45 106.03 A 36 36 0 0 0 95.18 106.11 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 95.67 88.05 A 54 54 0 0 1 97.10 88.01 L 97.40 106.01 A 36 36 0 0 0 96.45 106.03 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.10 88.01 A 54 54 0 0 1 97.42 88.00 L 97.61 106.00 A 36 36 0 0 0 97.40 106.01 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.42 88.00 A 54 54 0 0 1 97.73 88.00 L 97.82 106.00 A 36 36 0 0 0 97.61 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.73 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.82 106.00 Z" fill="#012456" stroke="#0d1117" stroke-width="1.5"/></g>
+    <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">66%</text></g>
     <g class="rise">
       <g transform="translate(184, 82.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f1e05a"/>
         <text class="row" x="16" y="0">JavaScript</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">69.9%</text>
-      </g></g><g class="rise" style="animation-delay:804ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">66.4%</text>
+      </g></g><g class="rise" style="animation-delay:764ms">
       <g transform="translate(184, 96.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00B4AB"/>
         <text class="row" x="16" y="0">Dart</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">14.4%</text>
-      </g></g><g class="rise" style="animation-delay:970ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">13.7%</text>
+      </g></g><g class="rise" style="animation-delay:922ms">
       <g transform="translate(184, 111.3)">
-        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00ADD8"/>
-        <text class="row" x="16" y="0">Go</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">5.8%</text>
-      </g></g><g class="rise" style="animation-delay:1037ms">
-      <g transform="translate(184, 126.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
         <text class="row" x="16" y="0">Python</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">5.4%</text>
-      </g></g><g class="rise" style="animation-delay:1099ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">10.1%</text>
+      </g></g><g class="rise" style="animation-delay:1038ms">
+      <g transform="translate(184, 126.0)">
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00ADD8"/>
+        <text class="row" x="16" y="0">Go</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">5.5%</text>
+      </g></g><g class="rise" style="animation-delay:1102ms">
       <g transform="translate(184, 140.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3178c6"/>
         <text class="row" x="16" y="0">TypeScript</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">3.1%</text>
-      </g></g><g class="rise" style="animation-delay:1135ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">3.0%</text>
+      </g></g><g class="rise" style="animation-delay:1136ms">
       <g transform="translate(184, 155.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f34b7d"/>
         <text class="row" x="16" y="0">C++</text>
