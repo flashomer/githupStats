@@ -60,29 +60,29 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 53.39 172.42 L 68.26 162.28 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 53.39 172.42 A 54 54 0 0 1 45.70 128.57 L 63.13 133.04 A 36 36 0 0 0 68.26 162.28 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 45.70 128.57 A 54 54 0 0 1 67.40 97.51 L 77.60 112.34 A 36 36 0 0 0 63.13 133.04 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 67.40 97.51 A 54 54 0 0 1 84.09 89.82 L 88.73 107.21 A 36 36 0 0 0 77.60 112.34 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 84.09 89.82 A 54 54 0 0 1 93.83 88.16 L 95.22 106.11 A 36 36 0 0 0 88.73 107.21 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 93.83 88.16 A 54 54 0 0 1 95.70 88.05 L 96.47 106.03 A 36 36 0 0 0 95.22 106.11 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 95.70 88.05 A 54 54 0 0 1 97.11 88.01 L 97.41 106.00 A 36 36 0 0 0 96.47 106.03 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.11 88.01 A 54 54 0 0 1 97.43 88.00 L 97.62 106.00 A 36 36 0 0 0 97.41 106.00 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.43 88.00 A 54 54 0 0 1 97.74 88.00 L 97.82 106.00 A 36 36 0 0 0 97.62 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.74 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.82 106.00 Z" fill="#012456" stroke="#0d1117" stroke-width="1.5"/></g>
-    <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">65%</text></g>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 55.57 175.40 L 69.71 164.26 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 55.57 175.40 A 54 54 0 0 1 45.42 129.69 L 62.95 133.79 A 36 36 0 0 0 69.71 164.26 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 45.42 129.69 A 54 54 0 0 1 65.78 98.67 L 76.52 113.11 A 36 36 0 0 0 62.95 133.79 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 65.78 98.67 A 54 54 0 0 1 84.21 89.79 L 88.80 107.19 A 36 36 0 0 0 76.52 113.11 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 84.21 89.79 A 54 54 0 0 1 93.87 88.16 L 95.24 106.11 A 36 36 0 0 0 88.80 107.19 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 93.87 88.16 A 54 54 0 0 1 95.70 88.05 L 96.46 106.03 A 36 36 0 0 0 95.24 106.11 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 95.70 88.05 A 54 54 0 0 1 97.07 88.01 L 97.38 106.01 A 36 36 0 0 0 96.46 106.03 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.07 88.01 A 54 54 0 0 1 97.39 88.00 L 97.59 106.00 A 36 36 0 0 0 97.38 106.01 Z" fill="#701516" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.39 88.00 A 54 54 0 0 1 97.70 88.00 L 97.80 106.00 A 36 36 0 0 0 97.59 106.00 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.70 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.80 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/></g>
+    <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">64%</text></g>
     <g class="rise">
       <g transform="translate(184, 82.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f1e05a"/>
         <text class="row" x="16" y="0">JavaScript</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">65.5%</text>
-      </g></g><g class="rise" style="animation-delay:753ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">64.4%</text>
+      </g></g><g class="rise" style="animation-delay:740ms">
       <g transform="translate(184, 96.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00B4AB"/>
         <text class="row" x="16" y="0">Dart</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">13.5%</text>
-      </g></g><g class="rise" style="animation-delay:909ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">14.3%</text>
+      </g></g><g class="rise" style="animation-delay:905ms">
       <g transform="translate(184, 111.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
         <text class="row" x="16" y="0">Python</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">11.4%</text>
-      </g></g><g class="rise" style="animation-delay:1040ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">11.2%</text>
+      </g></g><g class="rise" style="animation-delay:1033ms">
       <g transform="translate(184, 126.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00ADD8"/>
         <text class="row" x="16" y="0">Go</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">5.4%</text>
-      </g></g><g class="rise" style="animation-delay:1102ms">
+        <text class="row-dim" x="227" y="0" text-anchor="end">6.1%</text>
+      </g></g><g class="rise" style="animation-delay:1103ms">
       <g transform="translate(184, 140.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3178c6"/>
         <text class="row" x="16" y="0">TypeScript</text>
@@ -91,7 +91,7 @@
       <g transform="translate(184, 155.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f34b7d"/>
         <text class="row" x="16" y="0">C++</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">0.6%</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">0.5%</text>
       </g></g><g class="rise" style="animation-delay:1142ms">
       <g transform="translate(184, 170.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#DA3434"/>
@@ -99,18 +99,18 @@
         <text class="row-dim" x="227" y="0" text-anchor="end">0.4%</text>
       </g></g><g class="rise" style="animation-delay:1147ms">
       <g transform="translate(184, 184.7)">
-        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#4F5D95"/>
-        <text class="row" x="16" y="0">PHP</text>
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#701516"/>
+        <text class="row" x="16" y="0">Ruby</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
       </g></g><g class="rise" style="animation-delay:1148ms">
       <g transform="translate(184, 199.3)">
-        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#F05138"/>
-        <text class="row" x="16" y="0">Swift</text>
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#4F5D95"/>
+        <text class="row" x="16" y="0">PHP</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
       </g></g><g class="rise" style="animation-delay:1149ms">
       <g transform="translate(184, 214.0)">
-        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#012456"/>
-        <text class="row" x="16" y="0">PowerShell</text>
+        <rect x="0" y="-7" width="8" height="8" rx="2" fill="#F05138"/>
+        <text class="row" x="16" y="0">Swift</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">0.1%</text>
       </g></g>
 </svg>
