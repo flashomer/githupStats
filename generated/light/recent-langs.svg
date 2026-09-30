@@ -60,19 +60,19 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 56.04 175.99 L 70.02 164.66 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#ffffff" stroke-width="1.5"/><path d="M 56.04 175.99 A 54 54 0 0 1 45.48 129.44 L 62.99 133.62 A 36 36 0 0 0 70.02 164.66 Z" fill="#00B4AB" stroke="#ffffff" stroke-width="1.5"/><path d="M 45.48 129.44 A 54 54 0 0 1 66.10 98.43 L 76.73 112.95 A 36 36 0 0 0 62.99 133.62 Z" fill="#3572A5" stroke="#ffffff" stroke-width="1.5"/><path d="M 66.10 98.43 A 54 54 0 0 1 84.32 89.76 L 88.88 107.17 A 36 36 0 0 0 76.73 112.95 Z" fill="#00ADD8" stroke="#ffffff" stroke-width="1.5"/><path d="M 84.32 89.76 A 54 54 0 0 1 93.85 88.16 L 95.23 106.11 A 36 36 0 0 0 88.88 107.17 Z" fill="#3178c6" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.85 88.16 A 54 54 0 0 1 95.65 88.05 L 96.44 106.03 A 36 36 0 0 0 95.23 106.11 Z" fill="#f34b7d" stroke="#ffffff" stroke-width="1.5"/><path d="M 95.65 88.05 A 54 54 0 0 1 97.01 88.01 L 97.34 106.01 A 36 36 0 0 0 96.44 106.03 Z" fill="#DA3434" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.01 88.01 A 54 54 0 0 1 97.38 88.00 L 97.59 106.00 A 36 36 0 0 0 97.34 106.01 Z" fill="#F05138" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.38 88.00 A 54 54 0 0 1 97.69 88.00 L 97.79 106.00 A 36 36 0 0 0 97.59 106.00 Z" fill="#701516" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.69 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.79 106.00 Z" fill="#4F5D95" stroke="#ffffff" stroke-width="1.5"/></g>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 56.07 176.03 L 70.05 164.69 A 36 36 0 1 0 98.00 106.00 Z" fill="#f1e05a" stroke="#ffffff" stroke-width="1.5"/><path d="M 56.07 176.03 A 54 54 0 0 1 45.49 129.42 L 62.99 133.61 A 36 36 0 0 0 70.05 164.69 Z" fill="#00B4AB" stroke="#ffffff" stroke-width="1.5"/><path d="M 45.49 129.42 A 54 54 0 0 1 66.10 98.43 L 76.74 112.95 A 36 36 0 0 0 62.99 133.61 Z" fill="#3572A5" stroke="#ffffff" stroke-width="1.5"/><path d="M 66.10 98.43 A 54 54 0 0 1 84.32 89.76 L 88.88 107.17 A 36 36 0 0 0 76.74 112.95 Z" fill="#00ADD8" stroke="#ffffff" stroke-width="1.5"/><path d="M 84.32 89.76 A 54 54 0 0 1 93.85 88.16 L 95.23 106.11 A 36 36 0 0 0 88.88 107.17 Z" fill="#3178c6" stroke="#ffffff" stroke-width="1.5"/><path d="M 93.85 88.16 A 54 54 0 0 1 95.65 88.05 L 96.44 106.03 A 36 36 0 0 0 95.23 106.11 Z" fill="#f34b7d" stroke="#ffffff" stroke-width="1.5"/><path d="M 95.65 88.05 A 54 54 0 0 1 97.01 88.01 L 97.34 106.01 A 36 36 0 0 0 96.44 106.03 Z" fill="#DA3434" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.01 88.01 A 54 54 0 0 1 97.38 88.00 L 97.59 106.00 A 36 36 0 0 0 97.34 106.01 Z" fill="#F05138" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.38 88.00 A 54 54 0 0 1 97.69 88.00 L 97.79 106.00 A 36 36 0 0 0 97.59 106.00 Z" fill="#701516" stroke="#ffffff" stroke-width="1.5"/><path d="M 97.69 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.79 106.00 Z" fill="#4F5D95" stroke="#ffffff" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">64%</text></g>
     <g class="rise">
       <g transform="translate(184, 82.0)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f1e05a"/>
         <text class="row" x="16" y="0">JavaScript</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">64.2%</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">64.1%</text>
       </g></g><g class="rise" style="animation-delay:738ms">
       <g transform="translate(184, 96.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00B4AB"/>
         <text class="row" x="16" y="0">Dart</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">14.6%</text>
-      </g></g><g class="rise" style="animation-delay:905ms">
+      </g></g><g class="rise" style="animation-delay:906ms">
       <g transform="translate(184, 111.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
         <text class="row" x="16" y="0">Python</text>
