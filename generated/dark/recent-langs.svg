@@ -60,7 +60,7 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 49.37 165.47 L 65.58 157.65 A 36 36 0 1 0 98.00 106.00 Z" fill="#336790" stroke="#0d1117" stroke-width="1.5"/><path d="M 49.37 165.47 A 54 54 0 0 1 52.53 112.87 L 67.69 122.58 A 36 36 0 0 0 65.58 157.65 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 52.53 112.87 A 54 54 0 0 1 67.58 97.39 L 77.72 112.26 A 36 36 0 0 0 67.69 122.58 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 67.58 97.39 A 54 54 0 0 1 81.39 90.62 L 86.93 107.75 A 36 36 0 0 0 77.72 112.26 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 81.39 90.62 A 54 54 0 0 1 90.86 88.47 L 93.24 106.32 A 36 36 0 0 0 86.93 107.75 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 90.86 88.47 A 54 54 0 0 1 96.26 88.03 L 96.84 106.02 A 36 36 0 0 0 93.24 106.32 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 96.26 88.03 A 54 54 0 0 1 97.14 88.01 L 97.43 106.00 A 36 36 0 0 0 96.84 106.02 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.14 88.01 A 54 54 0 0 1 97.80 88.00 L 97.87 106.00 A 36 36 0 0 0 97.43 106.00 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.80 88.00 A 54 54 0 0 1 97.92 88.00 L 97.95 106.00 A 36 36 0 0 0 97.87 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.92 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.95 106.00 Z" fill="#701516" stroke="#0d1117" stroke-width="1.5"/></g>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 49.41 165.55 L 65.60 157.70 A 36 36 0 1 0 98.00 106.00 Z" fill="#336790" stroke="#0d1117" stroke-width="1.5"/><path d="M 49.41 165.55 A 54 54 0 0 1 52.47 112.97 L 67.65 122.64 A 36 36 0 0 0 65.60 157.70 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 52.47 112.97 A 54 54 0 0 1 67.48 97.45 L 77.65 112.30 A 36 36 0 0 0 67.65 122.64 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 67.48 97.45 A 54 54 0 0 1 81.27 90.66 L 86.85 107.77 A 36 36 0 0 0 77.65 112.30 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 81.27 90.66 A 54 54 0 0 1 90.86 88.47 L 93.24 106.32 A 36 36 0 0 0 86.85 107.77 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 90.86 88.47 A 54 54 0 0 1 96.26 88.03 L 96.84 106.02 A 36 36 0 0 0 93.24 106.32 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 96.26 88.03 A 54 54 0 0 1 97.14 88.01 L 97.43 106.00 A 36 36 0 0 0 96.84 106.02 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.14 88.01 A 54 54 0 0 1 97.80 88.00 L 97.87 106.00 A 36 36 0 0 0 97.43 106.00 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.80 88.00 A 54 54 0 0 1 97.92 88.00 L 97.95 106.00 A 36 36 0 0 0 97.87 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.92 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.95 106.00 Z" fill="#701516" stroke="#0d1117" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">68%</text></g>
     <g class="rise">
       <g transform="translate(184, 82.0)">
@@ -72,7 +72,7 @@
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#f1e05a"/>
         <text class="row" x="16" y="0">JavaScript</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">16.2%</text>
-      </g></g><g class="rise" style="animation-delay:967ms">
+      </g></g><g class="rise" style="animation-delay:966ms">
       <g transform="translate(184, 111.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00B4AB"/>
         <text class="row" x="16" y="0">Dart</text>
@@ -82,7 +82,7 @@
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3178c6"/>
         <text class="row" x="16" y="0">TypeScript</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">4.5%</text>
-      </g></g><g class="rise" style="animation-delay:1093ms">
+      </g></g><g class="rise" style="animation-delay:1092ms">
       <g transform="translate(184, 140.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
         <text class="row" x="16" y="0">Python</text>
