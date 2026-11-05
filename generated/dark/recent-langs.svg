@@ -60,7 +60,7 @@
         stroke-dasharray="282.74" stroke-dashoffset="0"
         transform="rotate(-90 98 142)"/>
     </mask>
-    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 49.66 166.06 L 65.77 158.04 A 36 36 0 1 0 98.00 106.00 Z" fill="#336790" stroke="#0d1117" stroke-width="1.5"/><path d="M 49.66 166.06 A 54 54 0 0 1 52.09 113.56 L 67.40 123.04 A 36 36 0 0 0 65.77 158.04 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 52.09 113.56 A 54 54 0 0 1 66.85 97.89 L 77.24 112.59 A 36 36 0 0 0 67.40 123.04 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 66.85 97.89 A 54 54 0 0 1 80.51 90.91 L 86.34 107.94 A 36 36 0 0 0 77.24 112.59 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 80.51 90.91 A 54 54 0 0 1 90.88 88.47 L 93.25 106.31 A 36 36 0 0 0 86.34 107.94 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 90.88 88.47 A 54 54 0 0 1 96.27 88.03 L 96.85 106.02 A 36 36 0 0 0 93.25 106.31 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 96.27 88.03 A 54 54 0 0 1 97.14 88.01 L 97.43 106.00 A 36 36 0 0 0 96.85 106.02 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.14 88.01 A 54 54 0 0 1 97.80 88.00 L 97.87 106.00 A 36 36 0 0 0 97.43 106.00 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.80 88.00 A 54 54 0 0 1 97.92 88.00 L 97.95 106.00 A 36 36 0 0 0 97.87 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.92 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.95 106.00 Z" fill="#701516" stroke="#0d1117" stroke-width="1.5"/></g>
+    <g mask="url(#lang-sweep)"><path d="M 98.00 88.00 A 54 54 0 1 1 49.69 166.13 L 65.79 158.09 A 36 36 0 1 0 98.00 106.00 Z" fill="#336790" stroke="#0d1117" stroke-width="1.5"/><path d="M 49.69 166.13 A 54 54 0 0 1 52.05 113.64 L 67.36 123.10 A 36 36 0 0 0 65.79 158.09 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/><path d="M 52.05 113.64 A 54 54 0 0 1 66.77 97.95 L 77.18 112.63 A 36 36 0 0 0 67.36 123.10 Z" fill="#00B4AB" stroke="#0d1117" stroke-width="1.5"/><path d="M 66.77 97.95 A 54 54 0 0 1 80.41 90.94 L 86.28 107.96 A 36 36 0 0 0 77.18 112.63 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/><path d="M 80.41 90.94 A 54 54 0 0 1 90.88 88.47 L 93.25 106.31 A 36 36 0 0 0 86.28 107.96 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/><path d="M 90.88 88.47 A 54 54 0 0 1 96.27 88.03 L 96.85 106.02 A 36 36 0 0 0 93.25 106.31 Z" fill="#00ADD8" stroke="#0d1117" stroke-width="1.5"/><path d="M 96.27 88.03 A 54 54 0 0 1 97.14 88.01 L 97.43 106.00 A 36 36 0 0 0 96.85 106.02 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.14 88.01 A 54 54 0 0 1 97.80 88.00 L 97.87 106.00 A 36 36 0 0 0 97.43 106.00 Z" fill="#DA3434" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.80 88.00 A 54 54 0 0 1 97.92 88.00 L 97.95 106.00 A 36 36 0 0 0 97.87 106.00 Z" fill="#F05138" stroke="#0d1117" stroke-width="1.5"/><path d="M 97.92 88.00 A 54 54 0 0 1 98.00 88.00 L 98.00 106.00 A 36 36 0 0 0 97.95 106.00 Z" fill="#701516" stroke="#0d1117" stroke-width="1.5"/></g>
     <g class="fade" style="animation-delay:700ms"><text class="stat-sm" x="98" y="148" text-anchor="middle">68%</text></g>
     <g class="rise">
       <g transform="translate(184, 82.0)">
@@ -82,11 +82,11 @@
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3178c6"/>
         <text class="row" x="16" y="0">TypeScript</text>
         <text class="row-dim" x="227" y="0" text-anchor="end">4.5%</text>
-      </g></g><g class="rise" style="animation-delay:1090ms">
+      </g></g><g class="rise" style="animation-delay:1089ms">
       <g transform="translate(184, 140.7)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#3572A5"/>
         <text class="row" x="16" y="0">Python</text>
-        <text class="row-dim" x="227" y="0" text-anchor="end">3.1%</text>
+        <text class="row-dim" x="227" y="0" text-anchor="end">3.2%</text>
       </g></g><g class="rise" style="animation-delay:1126ms">
       <g transform="translate(184, 155.3)">
         <rect x="0" y="-7" width="8" height="8" rx="2" fill="#00ADD8"/>
